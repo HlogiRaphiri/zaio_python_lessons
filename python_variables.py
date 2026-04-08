@@ -35,11 +35,11 @@ print(type(age))
 price_str = "19.99"
 price = float(price_str)
 # 13. Convert the float 9.99 into an integer.
-price_int = int(9.99)
+price = int(9.99)
 # 14. Create a variable 'greeting' that combines a string and your 'city' variable.
 greeting = f"Hello, I live in {city}."
 # 15. Use an f-string to print: "I am [age] years old and live in [city]."
-print(f"I am {age} years old and live in {city}.")
+print(f"I am {age} years old and I live in {city}.")
 # 16. Create a variable with a long string and use len() to find its length.
 Full_name = "Lehlogonolo Raphiri"
 print(len(Full_name))
@@ -47,10 +47,8 @@ print(len(Full_name))
 user_name = input("Please enter your name: ") 
 # 18. Ask a user for their birth year, convert to int, and calculate their current age.
 birth_year = int(input("Please enter your birth year: "))
-current_age = 2023 - birth_year
-print(current_age)
-Home_town = (input("Where do you live? "))
-print(Home_town)
+current_age = 2025 - birth_year
+print(f"You are {current_age} years old.")
 # 19. Create a boolean variable that checks if 10 is greater than 5.
 Z = 10 > 5
 print(Z)
